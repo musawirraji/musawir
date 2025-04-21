@@ -1,4 +1,5 @@
 import NavBar from './components/NavBar';
+import SEO from './components/Seo';
 import Contact from './sections/Contact';
 import ExperienceSection from './sections/ExperienceSection';
 import FeatureCards from './sections/FeatureCards';
@@ -12,6 +13,7 @@ import Testimonials from './sections/Testimonials';
 const App = () => {
   return (
     <>
+      <SEO />
       <NavBar />
       <Hero />
       <ShowcaseSection />
